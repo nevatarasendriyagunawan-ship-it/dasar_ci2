@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 
  </head>
  <body>
@@ -16,9 +17,7 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWjWO1cIHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anoymous"></script>
 
-    <script src="https://stackpatch.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYolly6OrQ6VrjIEaFf/nJGzlxFDsf4x0xIM+B07jRM"
-    crossorigin="anoymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
  </body>
  </html>

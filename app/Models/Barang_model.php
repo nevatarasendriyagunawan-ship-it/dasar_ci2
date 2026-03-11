@@ -16,4 +16,23 @@ class Barang_model extends Model
             return $this->getWhere(['id_barang' => $id]);
         }
     }
+
+    public function saveBarang($data)
+    {
+        $builder = $this->db->table($this->table);
+        return $builder->insert($data);
+    }
+
+    public function editBarang($data,$id)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('id_barang', $id);
+        return $builder->update($data);
+    }
+
+    public function hapusBarang($id)
+    {
+        $builder = $this->db->table($this->table);
+        return $builder->delete(['id_barang' => $id]);
+    }
 }
